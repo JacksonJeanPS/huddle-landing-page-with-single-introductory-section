@@ -1,0 +1,132 @@
+@media screen and (max-width: 374px) {
+    .header {
+        padding: 10px;
+    }
+    .logo-image {
+        width: 100%;
+    }
+    .main {
+        padding: 10px;
+    }
+    .heading {
+        padding: 10px 0;
+    }
+    .social-icon-bex {
+        margin: 10px 0;
+    }
+}
+
+@media screen and (min-width: 475px) {
+    .heading {
+        font-size: 2.5rem;
+    }
+    .paragraph {
+        font-size: 1.1rem;
+    }
+    .button {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 1024px) {
+    :root {
+        --main-padding: 5%;
+    }
+
+    body {
+        background: url("../images/bg-desktop.svg");
+        background-color: var(--bgcolor);
+        background-repeat: no-repeat;
+        background-size: auto 100%;
+    }
+
+    .page-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header {
+        width: 100%;
+        padding-top: 4%;
+    }
+
+    .logo-image {
+        width: 20%;
+        max-width: 440px;
+    }
+    .main {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-grow: 1;
+        padding: 30px var(--main-padding);
+    }
+
+    .image-container {
+        width: 55%;
+    }
+
+    .text-container {
+        align-items: flex-start;
+        text-align: left;
+        width: 40%;
+    }
+
+    .heading {
+        font-size: 3vw;
+        padding: 0 0 5%;
+    }
+
+    .paragraph {
+        font-size: 1.5vw;
+        padding: 2% 0;
+    }
+
+    .button {
+        text-align: center;
+        font-size: 1.5vw;
+        margin: 2% 0;
+    }
+
+    .footer {
+        width: 100%;
+    }
+    .social {
+        justify-content: flex-end;
+    }
+
+    .social-icon-box {
+        width: 2.5vw;
+        height: 2.5vw;
+    }
+    .social-icon {
+        font-size: 1.5vw;
+    }
+
+    .attribution {
+        font-size: 1vw;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 1900px) {
+    .main {
+        justify-content: space-around;
+        padding: 30px var(--main-padding);
+    }
+
+    .image-container {
+    }
+
+    .text-container {
+    }
+
+    .heading {
+    }
+
+    .paragraph {
+    }
+
+    .button {
+    }
+}
